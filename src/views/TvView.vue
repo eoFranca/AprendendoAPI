@@ -56,7 +56,7 @@ const listMovies = async (genreId) => {
   }
   
   .genre-item {
-    background-color: #5d6424;
+    background-color: #267c9e;
     border-radius: 1rem;
     padding: 0.5rem 1rem;
     align-self: center;
@@ -67,8 +67,8 @@ const listMovies = async (genreId) => {
   
   .genre-item:hover {
     cursor: pointer;
-    background-color: #7d8a2e;
-    box-shadow: 0 0 0.5rem #5d6424;
+    background-color: #1e99ca;
+    box-shadow: 0 0 0.5rem #3aa6d1;
   }
 
   .movie-list {
