@@ -27,15 +27,15 @@ const listMovies = async (genreId) => {
     <ul class="genre-list">
       
 <li v-for="genre in genres" :key="genre.id" @click="listMovies(genre.id)" class="genre-item">
-    {{ genre.name }}
+    {{ genre.name }}    
 </li>
     </ul>
     <div class="movie-list">
   <div v-for="movie in movies" :key="movie.id" class="movie-card">
     
-    <img :src="`https://image.tmdb.org/t/p/w500${movie.poster_path}`" :alt="movie.title" />
+    <img :src="`https://image.tmdb.org/t/p/w500${movie.poster_path}`" :alt="movie.name" />
     <div class="movie-details">
-      <p class="movie-title">{{ movie.title }}</p>
+      <p class="movie-title">{{ movie.name }}</p>
       <p class="movie-release-date">{{ movie.release_date }}</p>
       <p class="movie-genres">{{ movie.genre_ids }}</p>
     </div>
