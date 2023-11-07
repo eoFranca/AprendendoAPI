@@ -14,14 +14,20 @@
 
 <style scoped>
 header {
+  width: 100%;
+  font-family: 'Cinzel', sans-serif;
   height: 3rem;
   display: flex;
   background-color: #333; 
   color: #fff;
   font-size: 1.2rem;
   padding-left: 2rem;
+  position: fixed;
+  top: 0;
 }
-
+nav h1{
+  color: #a03e32;
+}
 nav {
   column-gap: 2rem;
   margin-bottom: 0;
@@ -37,6 +43,6 @@ nav {
 }
 
 .navbar-link:hover {
-  color: #0da34b; 
+  color: #a03e32; 
 }
 </style>
