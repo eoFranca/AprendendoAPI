@@ -1,8 +1,8 @@
 <template>
   <header>
     <nav>
-  <h1>IFWachers</h1>
-      <router-link to="/" class="navbar-link">Home</router-link>
+  
+      <router-link to="/" class="navbar-link"><h1>IFWachers</h1></router-link>
       <router-link to="/filmes" class="navbar-link">Filmes</router-link>
       <router-link to="/tv" class="navbar-link">Programas de TV</router-link>
     </nav>
@@ -26,7 +26,12 @@ header {
   top: 0;
 }
 nav h1{
-  color: #a03e32;
+  color: #a03232;
+  transition: 0.5s;
+}
+
+nav h1:hover{
+  color: #fff;
 }
 nav {
   column-gap: 2rem;
