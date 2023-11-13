@@ -7,7 +7,14 @@
   </template>
   <style scoped>
 .container{
-  color: black;
+  margin-top: 45px;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.753);
+  color: #FFF;
+  font-family: 'Cinzel Decorative';
+  display: flex;
+  justify-content: center;
 }
   </style>
   
