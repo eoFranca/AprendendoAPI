@@ -109,14 +109,14 @@ onMounted(async () => {
 
 }
 
-.movie-list {
+.Tv-list {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
 }
 
-.movie-card {
+.Tv-card {
   font-family: Arial, Helvetica, sans-serif;
   width: 15rem;
   height: 31rem;
@@ -126,7 +126,7 @@ onMounted(async () => {
 
 }
 
-.movie-card img {
+.Tv-card img {
   width: 100%;
   height: 20rem;
   border-radius: 5px 5px 0 0;
