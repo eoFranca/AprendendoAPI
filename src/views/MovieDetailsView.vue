@@ -34,21 +34,23 @@
       </div>
     </div>
   </div>
+ <div class="produtora">
 
-  <p>Produtoras</p>
-  <div class="companies">
-    <template
-      v-for="company in movieStore.currentMovie.production_companies"
-      :key="company.id"
+   <p>Produtoras</p>
+   <div class="companies">
+     <template
+     v-for="company in movieStore.currentMovie.production_companies"
+     :key="company.id"
     >
       <img
-        v-if="company.logo_path"
-        :src="`https://image.tmdb.org/t/p/w92${company.logo_path}`"
-        :alt="company.name"
+      v-if="company.logo_path"
+      :src="`https://image.tmdb.org/t/p/w92${company.logo_path}`"
+      :alt="company.name"
       />
       <p v-else>{{ company.name }}</p>
     </template>
   </div>
+</div>
   
 </template>
 
@@ -81,7 +83,11 @@
   }
 
 
- 
+ .produtora{
+  width: 100;
+  display:flex ;
+  align-items: center;
+ }
 
   .details p {
     margin-bottom: 8px;
